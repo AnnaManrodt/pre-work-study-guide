@@ -1,7 +1,7 @@
 # pre-work-study-guide
 # Pre-Work-StudyGuide
 
-## this project contains notes for my codingbott camp classes. It mostly contains sytax for HTML, CSS JavaScript, and GitHub.
+## this project contains notes for my class. It mostly contains HTML, CSS JavaScript, and GitHub.
 
 ## Usage
 Use as a study guide. To choose 
