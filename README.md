@@ -1,7 +1,8 @@
 # pre-work-study-guide
 # Pre-Work-StudyGuide
 
-## this project contains notes for my class. It mostly contains HTML, CSS JavaScript, and GitHub.
+##
+ This project contains notes for my class. It mostly contains gitHTML, CSS JavaScript, and GitHub.
 
 ## Usage
 Use as a study guide. To choose 
