@@ -16,40 +16,52 @@
     </header>
     <main>
       <section class="card" id="html-section">
-        <h2>HTML</h2>
-        <ul>
-            <li>The head element contains information about webpage.</li>
-            <li>The Body element represents the visble content show to the user</li>
-            <li>The code ul creates an unorder list "bullet points"</li>
-            <li>The code ol creates an order list "numbers"</li>
-            <li>The code herf contains a URL which is an adress of a link</li>
-             <li>The code img scr contains an img, it is important to add "alt" which is a worded discription of the img
-             <ol>More on img, you can add height witdth to an img just make sure its directly after img scr </ol>
-              <ol>More on img, if you want to get really fancy you can use commands like align, which will move the img to a part of the page, or border with will add a border to the img </ol>
+       
+        <input type="button" onclick="annasClickFunction()" class="anna-css-things" value="Button text" />
+        <div id="htmlNotes" style="display:none">
+          
+          <li>The head element contains information about webpage.</li>
+          <li>The Body element represents the visble content show to the user</li>
+          <li>The code ul creates an unorder list "bullet points"</li>
+          <li>The code ol creates an order list "numbers"</li>
+          <li>The code herf contains a URL which is an adress of a link</li>
+           <li>The code img scr contains an img, it is important to add "alt" which is a worded discription of the img
+           <ol>More on img, you can add height witdth to an img just make sure its directly after img scr </ol>
+            <ol>More on img, if you want to get really fancy you can use commands like align, which will move the img to a part of the page, or border with will add a border to the img </ol>
 
-              </li>
-            <li>The command br adds a clear, invisable, line break</li>
-            <li>The command p creates a new paragraph you can also use the command align to move th pargraph to s certian side of the page</li>
-            <li>The command hr creats a horizontal rule, you can use the command size, height in pixies, you can use align to move it and Width to see how much it takes up the page</li>
-            <li>lets talk about fonts
-                <ol>The command pre creats a seprate paragraph spaces and line-break matter</ol>
-                <ol>The command h1-h6 is used to size text creat headings and sperate paragraphs 1 largest 6 smallest</ol>
-                <ol>The command i creates <i>itlaic text</i></ol>
-                <ol>The command b creates <b>bold text</b></ol>
-                <ol>The command tt creates <tt>teletype text</tt></ol>
-                <ol>The command em creates <em>emphasis</em></ol>
-                <ol>The command strong creates a <strong>Strong Emphasis</strong></ol>
-                <ol>The command citaton creates <cite>ciations</cite></ol>
-                <ol>The command big creates <big>Big text</big></ol>
-                <ol>The command small creates <small>small text</small></ol>
-                <ol>The command sub creates <sub>subscript</sub></ol>
-                <ol>The command sup creats <sup>Superscript</sup></ol>
-                <ol>The command u creates <u>underlined text</u></ol>
-                <ol>The command s creats <s>Strike-through text</s></ol>
-                <ol>The command code creates commputer code</ol>
-                <ol>The command del creates deleted text</ol>
             </li>
-            <li>You can change the look of text by adding <font size ="+2" color="blue" face="verdana">size color and face</font></li>
+          <li>The command br adds a clear, invisable, line break</li>
+          <li>The command p creates a new paragraph you can also use the command align to move th pargraph to s certian side of the page</li>
+          <li>The command hr creats a horizontal rule, you can use the command size, height in pixies, you can use align to move it and Width to see how much it takes up the page</li>
+          <li>lets talk about fonts
+              <ol>The command pre creats a seprate paragraph spaces and line-break matter</ol>
+              <ol>The command h1-h6 is used to size text creat headings and sperate paragraphs 1 largest 6 smallest</ol>
+              <ol>The command i creates <i>itlaic text</i></ol>
+              <ol>The command b creates <b>bold text</b></ol>
+              <ol>The command tt creates <tt>teletype text</tt></ol>
+              <ol>The command em creates <em>emphasis</em></ol>
+              <ol>The command strong creates a <strong>Strong Emphasis</strong></ol>
+              <ol>The command citaton creates <cite>ciations</cite></ol>
+              <ol>The command big creates <big>Big text</big></ol>
+              <ol>The command small creates <small>small text</small></ol>
+              <ol>The command sub creates <sub>subscript</sub></ol>
+              <ol>The command sup creats <sup>Superscript</sup></ol>
+              <ol>The command u creates <u>underlined text</u></ol>
+              <ol>The command s creats <s>Strike-through text</s></ol>
+              <ol>The command code creates commputer code</ol>
+              <ol>The command del creates deleted text</ol>
+          </li>
+          <li>You can change the look of text by adding <font size ="+2" color="blue" face="verdana">size color and face</font></li>
+        </div>
+<script>
+function annasClickFunction(){
+  var elem =  document.getElementById("htmlNotes");
+  elem.style.display="block";
+}
+ </script>
+         
+        <h2>HTML</h2>
+        
 
 
         </ul>
