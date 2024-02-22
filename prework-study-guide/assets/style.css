@@ -7,6 +7,7 @@ header  {
     height: 155px;
     background-color: rgb(164, 208, 227);
     color: black;
+    
 }
 footer {
     width : 100%;
@@ -39,4 +40,31 @@ p {
     margin: 40px auto;
     border: 5px solid rgb(173, 210, 210);
     box-shadow: 5px 10px #88a1a6;
+  }
+
+  #htmNotes{
+    display:none
+  }
+   
+  .anna-css-things {
+    background-color:#f5f8f8 ;
+    border: 2px solid #2dacc9 ;
+    padding: auto;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block
+    font-size: 500px;
+    font-family:'Georgia';
+    width: 100px;
+    height: 25px;
+    position: relative;
+    left: 195px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .anna-css-things:hover {
+background-color: #2dacc9;
+color:white;
   }
