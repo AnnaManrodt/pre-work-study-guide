@@ -16,9 +16,12 @@
     </header>
     <main>
       <section class="card" id="html-section">
+
+        <h2>HTML</h2>
        
-        <input type="button" onclick="annasClickFunction()" class="anna-css-things" value="Button text" />
+        <div><input type="button" onclick="annasClickFunction()" class="anna-css-things" value="Button" />
         <div id="htmlNotes" style="display:none">
+        
           
           <li>The head element contains information about webpage.</li>
           <li>The Body element represents the visble content show to the user</li>
@@ -59,39 +62,57 @@ function annasClickFunction(){
   elem.style.display="block";
 }
  </script>
-         
-        <h2>HTML</h2>
-        
-
-
-        </ul>
       </section>
 
       <section class="card" id="css-section">
         <H2>CSS</H2>
+        <div><input type="button" onclick="ClickFunction()" class="anna-css-things" value="Button" />
+          <div id="cssNotes" style="display:none">
         <ul>
           <li>Enter your CSS notes here</li>
         </ul>
-      
+          </div>
       </section>
+<script>
+  function ClickFunction(){
+  var elem =  document.getElementById("cssNotes");
+  elem.style.display="block";
+  }
+</script>
+
 
       <section class="card" id="git-section">
         <h2>Git</h2>
+        <div><input type="button" onclick="ClickFunction1()" class="anna-css-things" value="Button" />
+          <div id="gitNotes" style="display:none">
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
         </ul>
-
+          </div>
       </section>
-
+<script>
+  function ClickFunction1(){
+  var elem =  document.getElementById("gitNotes");
+  elem.style.display="block";
+  }
+  </script>
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
+        <div><input type="button" onclick="ClickFunction2()" class="anna-css-things" value="Button" />
+          <div id="javaScriptNotes" style="display:none">
         <ul>
           <li>Enter your git notes here</li>
         </ul>
-
+      
       </section>
     </main>
+<Script>
+   function ClickFunction2(){
+  var elem =  document.getElementById("javaScriptNotes");
+  elem.style.display="block";
+  }
+</Script>
 
     <footer>
       <p>I can code!</p>
