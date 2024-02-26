@@ -29,3 +29,7 @@ console.log('here are the topics we learned through Prework:');
 listTopics();
 console.log('which topic should we study first?');
 selectTopic();
+
+function myFn{
+    document.getElementById("myP").innerText= "selectTopic()";
+    }
